@@ -1,3 +1,3 @@
-# WXT + React
+# VG Idea Manager Proof of Concept
 
-This template should help get you started developing with React in WXT.
+Proof of concept of a chrome extension that creates a notion ticket/page of an incomplete idea and picks one at random from a notion page
