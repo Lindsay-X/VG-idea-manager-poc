@@ -7,17 +7,18 @@ Proof of concept for a browser extension that:
 
 ## Prerequisites
 
-- Node.js 18+
-- Google Chrome (or Firefox if using the Firefox scripts)
+- node.js 18+
+- google chrome (or Firefox if using the Firefox scripts)
 
 ## Install
 
-1. Clone the repo
+1. clone the repo
 
-2. Install dependencies:
+2. install dependencies:
 ```bash
 npm install
 ```
+3. copy create a ``.env`` file, copy content from ``.env.example``, and fill out the keys and IDs
 
 ## Run in Development
 
