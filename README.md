@@ -18,7 +18,20 @@ Proof of concept for a browser extension that:
 ```bash
 npm install
 ```
-3. copy create a ``.env`` file, copy content from ``.env.example``, and fill out the keys and IDs
+
+## Authentication (Required)
+Each user must provide their own Notion integration token.
+
+- Set `NOTION_API_KEY` in your local `.env` file (each workspace has their own `NOTION_API_KEY` which can be accessed in the [notion dev portal](https://app.notion.com/developers?assetsVersion=23.13.20260624.1341&clientBuildTarget=client))
+- The token should be from the user account that will access the target Notion workspace/pages.
+
+Example `.env` values:
+
+```env
+NOTION_API_KEY=ntn_xxx
+NOTION_DATA_TABLE_SOURCE_ID=xxx
+NOTION_DATA_TABLE_ID=xxx
+```
 
 ## Run in Development
 
